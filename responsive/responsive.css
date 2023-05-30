@@ -1,7 +1,6 @@
 @media (max-width: 992px) {
   .container {
     max-width: 932px;
-    margin: auto;
   }
   .nav__list-link {
     margin-right: 30px;
@@ -111,16 +110,116 @@
   .projects__container {
     padding: 80px 0;
   }
+  .projects__heading {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
   .projects__pictures {
     justify-content: space-between;
   }
   .projects__list-photo {
     max-width: 280px;
   }
+  .feedback__container {
+    padding: 80px 0;
+  }
+  .feedback__heading {
+    font-size: 38px;
+    margin-bottom: 80px;
+  }
+  .feedback__list-item {
+    max-width: 300px;
+  }
   .questions__container {
     padding: 80px 0px 80px 12px;
   }
+  .questions__heading {
+    font-size: 38px;
+    margin-bottom: 50px;
+  }
   .accordion__heading {
     max-width: 920px;
+  }
+  .accordion__item-text {
+    font-size: 14px;
+  }
+  .contact__container {
+    padding: 80px 0;
+    background-size: 400px;
+    background-position: bottom right;
+  }
+  .contact__heading {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+  .contact__description {
+    font-size: 14px;
+    max-width: 450px;
+  }
+  .contact__input {
+    max-width: 450px;
+  }
+  .contact__message-input {
+    max-width: 450px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 708px;
+  }
+  .nav__list-link {
+    margin-right: 15px;
+  }
+  .header__burger-container {
+    display: block;
+  }
+  .header__logo {
+    margin-left: 60px;
+  }
+  .header__burger {
+    display: block;
+  }
+  .header__second {
+    display: none;
+  }
+  .contact__line {
+    width: 100px;
+  }
+  .info__first {
+    max-height: 400px;
+    max-width: 400px;
+  }
+  .info__image-1 {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .info__image-2 {
+    max-width: 250px;
+    max-height: 250px;
+    transform: translate(60%, -70%);
+  }
+  .info__heading {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .info__description {
+    font-size: 12px;
+    max-width: 350px;
+    margin-bottom: 5px;
+  }
+  .welcome__container-contact {
+    margin-bottom: 5px;
+  }
+  .services__heading {
+    font-size: 28px;
+  }
+  .projects__heading {
+    font-size: 28px;
+  }
+  .projects__list-photo {
+    max-width: 210px;
+  }
+  .accordion__heading {
+    max-width: 698px;
   }
 }/*# sourceMappingURL=responsive.css.map */
