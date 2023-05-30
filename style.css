@@ -72,6 +72,8 @@ a {
   background-image: url(img/main__background.png);
   background-color: #202020;
   background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
 }
 
 .main__container {
@@ -307,7 +309,7 @@ a {
   padding: 0 15px;
 }
 
-.services__card-item:nth-child(1) {
+.services__card-item:first-child {
   margin-bottom: 61px;
   margin-right: 20px;
 }
